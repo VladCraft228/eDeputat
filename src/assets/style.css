@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grad {
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, rgba(86, 145, 233, 1), rgba(29, 43, 80, 1)) border-box;
+}
+
+.input {
+    @apply border-2 md:text-2xl border-transparent  text-xl rounded-[20px] pl-4 md:my-2 my-1 pr-16 py-1 w-full focus:outline-none focus:border-4 border-solid min-h-[60px] lg:h-[70px] md:h-[70px] md:mt-0 mt-0 md:mx-0
+}
+
+.input_modal {
+    @apply border-2 border-transparent md:text-2xl text-xl rounded-[20px] pl-4 sm:my-2 my-1 pr-16 py-1 w-full focus:outline-none focus:border-4 min-h-[50px] md:h-[50px]
+}
+
+.h2 {
+    @apply lg:text-4xl md:text-3xl text-2xl font-bold text-center md:my-12 mt-12 mb-10
+}
+
+h1, h2, h3, p {
+    @apply text-[#404040]
+}
+
+
+.filter_btn {
+    @apply lg:text-2xl text-xl text-[#404040] hover:text-[#1D2B50] border-2 hover:border-4 border-solid border-transparent  rounded-[20px] focus:text-[#1D2B50]  focus:border-4 md:p-0 py-2 min-h-[60px] lg:h-[105px] md:h-[95px] md:mt-0 md:mx-0
+}
+
+.modal_btn {
+    @apply lg:text-2xl text-xl text-[#404040] hover:text-[#1D2B50] border-2 hover:border-4 border-solid border-transparent hover:border-[#1D2B50] rounded-[20px] md:p-0 py-2 min-h-[50px] lg:h-[75px] md:h-[50px] md:mt-1 mt-1 md:mx-0 sm:mx-3
+}
+
+.modal {
+    @apply block fixed z-30 left-0 top-0 w-full h-full overflow-auto bg-[rgb(0,0,0)] bg-[rgba(0,0,0,0.4)] md:pt-5 md:pb-5
+}
+
+.modal-content {
+    @apply bg-[#fefefe] m-auto p-5 border-2 rounded-[20px] border-solid border-[#888] lg:w-2/3 md:w-4/5 w-11/12 h-[calc(100vh-40px)]  overflow-auto md:mt-0 mt-5
+}
+
+.close {
+    @apply text-[#aaa] float-right text-2xl font-bold
+}
+
+.close:hover,
+.close:focus {
+    @apply text-black no-underline cursor-pointer
+}
+
+.bg-header {
+    @apply relative rounded-b-[35px] text-white flex items-start justify-center p-4 min-h-[100px] md:h-[188px] h-auto bg-center bg-cover
+}
+
+.deputy-info {
+    @apply flex flex-col w-full
+}
+
+.deputy-page {
+    @apply flex items-center justify-center md:my-12 mt-12 mb-10
+}
+
+.v-enter-active,
+.v-leave-active {
+    transition: opacity .2s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
+}
+
+::-webkit-scrollbar {
+    @apply w-1.5
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-[#1D2B50]
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-[#131d36]
+}

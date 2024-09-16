@@ -1,0 +1,27 @@
+{
+  "name": "deputat",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^10.12.5",
+    "pinia": "^2.1.7",
+    "swiper": "^11.1.4",
+    "vue": "^3.4.21",
+    "vue-query": "^1.26.0",
+    "vue-router": "^4.3.3",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.2.8"
+  }
+}
